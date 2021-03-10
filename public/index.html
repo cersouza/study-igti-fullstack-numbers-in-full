@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="rangeNumbersContainer">
+    <h1>Número por extenso</h1>
+    <label>
+      Escolha um número de 0 a 999
+      <input type="range" id="rangeNumber" min="0" max="999"/>
+    </label>
+
+    <label>
+      Número atual:
+      <input type="text" id="currentNumber" disabled />
+    </label>
+    
+    <label>
+      Número por extenso:
+      <input type="text" id="numberInFull" disabled />
+    </label>
+  </div>
+  <script src="./src/script.js" defer></script>
+</body>
+</html>
