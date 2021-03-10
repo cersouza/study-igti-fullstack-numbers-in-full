@@ -1,10 +1,10 @@
 
 
-<img src="C:\Users\caio.e.souza\Desktop\CAIO SOUZA\IGTI\trabalhos-praticos\study-igti-numbers-in-full\.readme\logo-numbers.svg" width="200px">
+<img src="./.readme/logo-numbers.svg" width="100px" align="left">
 
 # Números por Extenso
 
-![Demonstração Número por Extenso](C:\Users\caio.e.souza\Desktop\CAIO SOUZA\IGTI\trabalhos-praticos\study-igti-numbers-in-full\.readme\demo.gif)
+![Demonstração Número por Extenso](./.readme/demo.gif)
 
 ### 1. Sobre 📙
 
