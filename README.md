@@ -27,4 +27,4 @@ npm run dev
 
 - **Homework:** Realizado durante o curso Full Stack com a IGTI
 - **When:** MAR/2020
-- **Font:** Icon made by Freepik from [www.flaticon.com](www.flaticon.com)
+- **Icon:** Made by Freepik from [www.flaticon.com](www.flaticon.com)
