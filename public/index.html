@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./src/styles/global.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div class="rangeNumbersContainer">
-    <h1>Número por extenso</h1>
-    <label>
-      Escolha um número de 0 a 999
-      <input type="range" id="rangeNumber" min="0" max="999"/>
-    </label>
 
-    <label>
-      Número atual:
-      <input type="text" id="currentNumber" disabled />
-    </label>
-    
-    <label>
-      Número por extenso:
-      <input type="text" id="numberInFull" disabled />
-    </label>
+  <link rel="shortcut icon" href="./src/img/logo-numbers.svg" type="image/svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet">
+
+  <title>Números por extenso</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="rangeNumbersContainer">
+      
+      <h1>
+        <img src="./src/img/logo-numbers.svg">
+        <span>Número por extenso</span>
+      </h1>
+      <label>
+        Escolha um número de 0 a 999
+        <input type="range" id="rangeNumber" min="0" max="999" value="0" />
+      </label>
+  
+      <label>
+        Número atual:
+        <input type="text" id="currentNumber" disabled />
+      </label>
+  
+      <label>
+        Número por extenso:
+        <input type="text" id="numberInFull" disabled />
+      </label>
+      <span id="smile-face" class="d-none">😄 Sorria, você chegou ao fim !</span>
+    </div>
   </div>
-  <script src="./src/script.js" defer></script>
+  <script src="./src/scripts/script.js" defer></script>
 </body>
+
 </html>

@@ -1,0 +1,63 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 300 1rem 'Noto Sans JP', sans-serif;
+  background: #f8f9fa;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.rangeNumbersContainer {
+  padding: 1rem;
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.rangeNumbersContainer h1  {
+  display: flex;
+  align-items: center;
+}
+
+.rangeNumbersContainer h1 img {
+  height: 5rem;
+  margin-right: 10px;
+}
+
+.rangeNumbersContainer input {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.rangeNumbersContainer input[type=text] {
+  font-size: large;
+}
+
+.rangeNumbersContainer input[type=range] {
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+#smile-face {
+  font: 600 1rem 'Noto Sans JP', sans-serif;;
+  text-align: center;
+  margin: 1.5rem;
+}
