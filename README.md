@@ -8,7 +8,7 @@
 
 ## 1. Sobre 📙
 
-Feito com puramente com `Javascript `, descreve os números por extenso em tela. 
+Feito puramente com `Javascript `, descreve os números por extenso em tela. 
 
 ## 2. Instalação Inicial 💻
 
